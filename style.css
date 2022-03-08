@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pp {
+    height: 400px;
+    width: 400px;
+    border: 10px solid purple;
+    position: relative;
+    top: -100px;
+    left: 180px;
+}
+
+
+.first {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 100px 0px 100px 0px;
+}
+
+.second {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 100px 0px 100px 0px;
+    transform: rotate(80deg);
+    position: relative;
+    top: -90px;
+    left: -145px;
+}
+
+.third {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 100px 0px 100px 0px;
+    transform: rotate(135deg);
+    position: relative;
+    top: -220px;
+    left: -73px;
+}
+
+.line1 {
+    height: 5px;
+    width: 250px;
+    background-color: white;
+    position: relative;
+    top: -260px;
+    left: -150px;
+}
+
+.line2 {
+    height: 5px;
+    width: 250px;
+    background-color: white;
+    position: relative;
+    top: -250px;
+    left: -150px;
+}
+
+.line3 {
+    height: 5px;
+    width: 250px;
+    background-color: white;
+    position: relative;
+    top: -240px;
+    left: -150px;
+}
